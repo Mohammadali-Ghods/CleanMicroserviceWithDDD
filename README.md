@@ -11,6 +11,6 @@ Before you start you should find all events of this domain and negotiate with do
 Also validation is one of important step in Domain layer and before you created any object from entities class everything should be validate.
 In domain we don't access to create object from entity in unvalidate state.
 The things that change the state of entity and we should validate it is just in command part of CQRS. In this project I handled commands in domain layer and in query part of CQRS I sent any query directly from application layer to repository (part of infrastructure layer)
-I used fluent validation for validate commands in Domain layer and also used AutoMapper for mapped viewmode in to entity and vice versa. 
-MongoDB is my DB in this project and I used MongoDB.Entities for handling every communication with Mongo in repository.
-As you know the some times you need to send event to another microservice and RabbitMQ is best choice for it and I used MassTransit for get event from Rabbit and send or publish new event to Rabbit for the use of other microservices.
+I used fluent validation for validate commands in Domain layer and also used AutoMapper for mapped viewmodels into entity and vice versa. 
+MongoDB is my DB in this project and I used MongoDB.Entities library for handling every communication with Mongo in repository.
+As you know some times you need to send event to another microservice and RabbitMQ is best choice for it and I used MassTransit for get event from Rabbit and send or publish new event to Rabbit for the use of other microservices.
