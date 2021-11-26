@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Application</id>
+    <version>1.0.0</version>
+    <authors>Application</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Data" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Domain" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper" version="10.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Unipoly\source\repos\diffancy-backend\CustomerMicroservice\Application\bin\Release\net5.0\Application.dll" target="lib\net5.0\Application.dll" />
+  </files>
+</package>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Data</id>
+    <version>1.0.0</version>
+    <authors>Data</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Domain" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Entities" version="20.20.0" exclude="Build,Analyzers" />
+        <dependency id="NetDevPack.Identity" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Unipoly\source\repos\diffancy-backend\CustomerMicroservice\Data\bin\Release\net5.0\Data.dll" target="lib\net5.0\Data.dll" />
+  </files>
+</package>
