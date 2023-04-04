@@ -9,30 +9,3 @@ To separate the responsibility for handling commands and queries, I used the Com
 I also used Docker to package and deploy my microservices. This approach makes it easy for me to deploy and run my application on different environments.
 
 Overall, I believe that my application is well-architected and built on modern technologies and patterns. This should make it scalable and maintainable over time.
-
-#Technologies Used
-
-    .NET Core
-    C#
-    Microservices
-    Domain-Driven Design (DDD)
-    Command Query Responsibility Segregation (CQRS)
-    MongoDB
-    (Optional) SQL Server
-    Docker
-
-#Getting Started
-#Prerequisites
-
-    .NET Core SDK
-    MongoDB
-    (Optional) SQL Server
-    Docker
-
-#Installation
-
-    Clone the repository.
-    Open the solution in Visual Studio or your preferred IDE.
-    Build the solution.
-    Run the following command to create a Docker image of your microservice:
-    docker build -t <image-name> .
